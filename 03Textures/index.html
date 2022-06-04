@@ -13,9 +13,6 @@
           <img id="wood" src="images/wood.jpg" />
       </a-assets>
       
-      <a-assets>
-          <img id="grass" src="images/grass.jpg" />
-      </a-assets>
                 
       <a-box id="myBox" 
         material= "src: #wood; repeat 15 15"
@@ -26,8 +23,14 @@
         depth="1" 
         shadow>
       </a-box>
+      
+      <a-assets>
+        <img id="grass" src="images/grass.jpg" />
+      </a-assets>
+      
+      
       <a-plane id="ground"
-        material= "src:#grass; repeat: 15 15"       
+        material= "src: #grass; repeat: 15 15"       
         position="0 0 -4" 
         rotation="-90 0 0" 
         width="100" 
