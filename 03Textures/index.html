@@ -11,6 +11,7 @@
     <a-scene background="color: #333333">
       <a-assets>
           <img id="wood" src="images/wood.jpg" />
+         <img id="grass" src="images/grass.jpg" />
           
       </a-assets>
       
@@ -20,8 +21,8 @@
         width="3" 
         height="1" 
         depth="1" 
-        shadow
-        material="src:#wood">
+        material="src: #wood"
+        shadow>
         
       </a-box>
      
@@ -34,7 +35,9 @@
         width="100" 
         height="100" 
         color="#7BC8A4" 
+        material="src: #grass"
         shadow>
+        
       </a-plane> 
     </a-scene>
   </body>
